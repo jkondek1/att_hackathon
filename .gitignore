@@ -88,9 +88,6 @@ target/
 # Mypy cache
 .mypy_cache/
 
-# notebooks
-*.ipynb
-
 #batch files
 *.bat
 *.ps1
