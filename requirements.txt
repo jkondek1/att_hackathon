@@ -3,6 +3,7 @@ scikit-learn
 pandas
 scikit-survival
 streamlit
+streamlit_option_menu
 flask
 nltk
 gensim
