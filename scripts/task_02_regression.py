@@ -1,7 +1,5 @@
 from scripts.util.regression_utils import *
 
-
-
 data_supervised = pd.read_csv("datasets/ML_DATASET_Hackathon_Supervised.csv").dropna().drop_duplicates().drop(
     'Unnamed: 0', axis=1)
 data_supervised[['Ticket_Opened_Date', 'Ticket_Closed']] = data_supervised[
@@ -22,4 +20,7 @@ data_train = data_train[~data_train.groupby('Team')['hr_duration'].apply(is_outl
 features = get_relevant_features(data_train)
 
 model, y_pred = modelling_pipeline(data_train, features)
+
+
+
 
