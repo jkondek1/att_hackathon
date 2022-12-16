@@ -10,3 +10,4 @@ thefuzz
 catboost
 lightgbm
 tqdm
+jupyter
